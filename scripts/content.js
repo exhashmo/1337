@@ -21,7 +21,18 @@ function isCheckInAnnounced() {
   const checkInPhrase =
     "New 'check-ins' spots will open soon. To be informed when some will open, you can follow us on twitter or like us on facebook";
   const bodyText = document.body.innerText || document.body.textContent;
-  return !bodyText.includes(checkInPhrase);
+
+  // Method 2: Using a CSS selector
+  var captchaElement = document.querySelector(".g-recaptcha");
+  var captchaExist = true;
+  // Combine results
+  if (!captchaElement) {
+    var captchaExist = false;
+  } else {
+    console.log("No reCAPTCHA element found.");
+  }
+
+  return !bodyText.includes(checkInPhrase) || captchaExist;
 }
 
 // Disable all links in navigation except the "Check-in" link
@@ -58,7 +69,7 @@ function startCountdown() {
         playAlarm();
         chrome.runtime.sendMessage({ badgeText: "OFF", tabId });
         clearInterval(intervalId);
-        return 
+        return;
       } else {
         console.log("No check-in announced");
       }
