@@ -30,12 +30,11 @@ This guide will walk you through the steps to install the checkinAlarm Chrome ex
    - You should see the extension's icon appear in the Chrome toolbar.
 7. **Enjoy the Extension:**
 
-   - You've successfully installed the checkinAlarm  extension! Enjoy it.
+   - You've successfully installed the checkinAlarm  extension! 
 
 ## Feedback and Support
 
-If you encounter any issues during installation or while using the extension, feel free to [submit an issue] (https://github.com/exhashmo/1337)/issues) on the GitHub repository page.
+If you encounter any issues during installation or while using the extension, feel free to [submit an issue](https://github.com/exhashmo/1337/issues) on the GitHub repository page.
 
-For additional support or questions, you can also contact the extension's developer directly via facebook.
+For additional support or questions, you can also contact the extension's developer directly via [whatsapp](https://chat.whatsapp.com/G3i8wCtoRf3KcjsfvjSrB5)
 
-Happy browsing!
