@@ -1,0 +1,24 @@
+{
+  "name": "checkinAlarm BETA",
+  "description": "checkin alarm THIS EXTENSION IS FOR BETA TESTING",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions":["tabs","activeTab"],
+  "host_permissions": [
+    "https://candidature.1337.ma/*"
+  ],
+  "action": {
+    "default_icon": "1337.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://candidature.1337.ma/*"
+      ]
+    }
+  ]
+}
