@@ -36,5 +36,5 @@ This guide will walk you through the steps to install the checkinAlarm Chrome ex
 
 If you encounter any issues during installation or while using the extension, feel free to [submit an issue](https://github.com/exhashmo/1337/issues) on the GitHub repository page.
 
-For additional support or questions, you can also contact the extension's developer directly via [whatsapp](https://chat.whatsapp.com/G3i8wCtoRf3KcjsfvjSrB5)
+For additional support or questions, you can also contact the extension's developer directly via [whatsapp](https://wa.me/212771681446)
 
